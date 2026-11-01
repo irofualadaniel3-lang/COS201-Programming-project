@@ -34,3 +34,28 @@ Open a terminal in the `week01` folder and type:
 - Uploading my work to GitHub with Git
 
 Activities A, B and C (the IPO model, algorithms, pseudocode and flowcharts) were done on paper, as the notes instruct, so they are not in this repository.
+
+## Week 2: Development Environment and First Java Program
+
+### Objective
+
+To install and set up the Java development environment, write a simple Java program, compile and run it, and submit the source code on GitHub.
+
+### Files
+
+- `week02/HelloWorld.java`: the HelloWorld practical, changed to show my name, matric number, course, programme, topic and goal.
+- `week02/StudentProfile.java`: prints my student profile, using `print()` for each label and `println()` for each value.
+- `week02/PrintExample.java`: the `print()` and `println()` practice exercise. The output I predicted before running it is in the comment at the top of the file.
+- `week02/ErrorExample.java`: the "find and fix the error" exercise. The line from the notes had no semicolon at the end, which gave the compiler error `';' expected`. This is the corrected version.
+
+### How to Run
+
+1. Open a terminal in the `week02` folder.
+2. Compile the program, for example: `javac HelloWorld.java`
+3. Run it: `java HelloWorld`
+
+`StudentProfile`, `PrintExample` and `ErrorExample` are compiled and run in the same way, using their own names.
+
+### Learning Outcome
+
+This week I learnt how to compile a program with `javac` and run it with `java`, that `print()` stays on the same line while `println()` moves to a new line, how to add comments to my code, how to read a compiler error message and fix the mistake, and how to push my files to GitHub.
